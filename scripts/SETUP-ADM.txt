@@ -1,0 +1,16 @@
+COMO CRIAR O PRIMEIRO ADM
+
+1. Faça seu cadastro normalmente no site.
+2. No Firebase Console, abra Authentication > Users.
+3. Copie o UID do seu usuário.
+4. Abra Firestore Database.
+5. Crie a coleção:
+   admins
+6. Crie um documento cujo ID seja exatamente o seu UID.
+7. Adicione:
+   active = true (boolean)
+   name = "Administrador"
+
+Depois disso, seu usuário terá acesso à rota /admin.
+
+NÃO coloque sua senha no código ou no GitHub.
